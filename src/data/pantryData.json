@@ -1,0 +1,60 @@
+[
+  { "id": 1,  "name": "Roma Tomatoes",         "category": "Produce",   "type": "Vegetable",   "qty": 18, "unit": "lbs",     "expiry": "2026-03-02", "tags": ["fresh","sauce","salad"] },
+  { "id": 2,  "name": "Baby Spinach",          "category": "Produce",   "type": "Leafy Green", "qty": 6,  "unit": "bags",    "expiry": "2026-02-28", "tags": ["fresh","salad","smoothie"] },
+  { "id": 3,  "name": "Yellow Onions",         "category": "Produce",   "type": "Vegetable",   "qty": 25, "unit": "lbs",     "expiry": "2026-04-15", "tags": ["staple","cooking"] },
+  { "id": 4,  "name": "Russet Potatoes",       "category": "Produce",   "type": "Root Veg",    "qty": 40, "unit": "lbs",     "expiry": "2026-03-20", "tags": ["staple","baking","boiling"] },
+  { "id": 5,  "name": "Fuji Apples",           "category": "Produce",   "type": "Fruit",       "qty": 30, "unit": "lbs",     "expiry": "2026-03-05", "tags": ["fresh","snack","sweet"] },
+  { "id": 6,  "name": "Bananas",               "category": "Produce",   "type": "Fruit",       "qty": 50, "unit": "count",   "expiry": "2026-02-27", "tags": ["fresh","snack","smoothie"] },
+  { "id": 7,  "name": "Garlic Bulbs",          "category": "Produce",   "type": "Aromatic",    "qty": 15, "unit": "heads",   "expiry": "2026-05-01", "tags": ["staple","cooking","aromatic"] },
+  { "id": 8,  "name": "Carrots",               "category": "Produce",   "type": "Root Veg",    "qty": 20, "unit": "lbs",     "expiry": "2026-03-15", "tags": ["fresh","snack","soup"] },
+  { "id": 9,  "name": "Broccoli",              "category": "Produce",   "type": "Vegetable",   "qty": 12, "unit": "heads",   "expiry": "2026-03-01", "tags": ["fresh","steam","stir-fry"] },
+  { "id": 10, "name": "Lemons",                "category": "Produce",   "type": "Citrus",      "qty": 24, "unit": "count",   "expiry": "2026-03-10", "tags": ["fresh","baking","flavor"] },
+
+  { "id": 11, "name": "Long Grain White Rice", "category": "Grains",    "type": "Rice",        "qty": 50, "unit": "lbs",     "expiry": "2027-06-01", "tags": ["staple","gluten-free","bulk"] },
+  { "id": 12, "name": "Whole Wheat Bread",     "category": "Grains",    "type": "Bread",       "qty": 20, "unit": "loaves",  "expiry": "2026-03-02", "tags": ["fresh","sandwich","staple"] },
+  { "id": 13, "name": "Rolled Oats",           "category": "Grains",    "type": "Oats",        "qty": 30, "unit": "lbs",     "expiry": "2027-01-01", "tags": ["breakfast","bulk","baking"] },
+  { "id": 14, "name": "Penne Pasta",           "category": "Grains",    "type": "Pasta",       "qty": 40, "unit": "lbs",     "expiry": "2027-03-01", "tags": ["staple","dinner","bulk"] },
+  { "id": 15, "name": "All-Purpose Flour",     "category": "Grains",    "type": "Flour",       "qty": 25, "unit": "lbs",     "expiry": "2026-12-01", "tags": ["baking","staple","bulk"] },
+  { "id": 16, "name": "Cornmeal",              "category": "Grains",    "type": "Flour",       "qty": 15, "unit": "lbs",     "expiry": "2026-10-01", "tags": ["baking","gluten-free","bulk"] },
+
+  { "id": 17, "name": "Canned Tuna",           "category": "Proteins",  "type": "Seafood",     "qty": 60, "unit": "cans",    "expiry": "2028-01-01", "tags": ["canned","protein","omega-3"] },
+  { "id": 18, "name": "Black Beans",           "category": "Proteins",  "type": "Legume",      "qty": 45, "unit": "cans",    "expiry": "2027-06-01", "tags": ["canned","protein","vegan","fiber"] },
+  { "id": 19, "name": "Chickpeas",             "category": "Proteins",  "type": "Legume",      "qty": 35, "unit": "cans",    "expiry": "2027-08-01", "tags": ["canned","protein","vegan","hummus"] },
+  { "id": 20, "name": "Peanut Butter",         "category": "Proteins",  "type": "Nut Butter",  "qty": 20, "unit": "jars",    "expiry": "2026-11-01", "tags": ["protein","spread","snack"] },
+  { "id": 21, "name": "Dried Lentils",         "category": "Proteins",  "type": "Legume",      "qty": 30, "unit": "lbs",     "expiry": "2027-01-01", "tags": ["dried","protein","vegan","soup"] },
+  { "id": 22, "name": "Eggs",                  "category": "Proteins",  "type": "Egg",         "qty": 15, "unit": "dozens",  "expiry": "2026-03-10", "tags": ["fresh","protein","baking","breakfast"] },
+  { "id": 23, "name": "Canned Chicken",        "category": "Proteins",  "type": "Poultry",     "qty": 40, "unit": "cans",    "expiry": "2027-09-01", "tags": ["canned","protein","quick"] },
+
+  { "id": 24, "name": "Whole Milk",            "category": "Dairy",     "type": "Milk",        "qty": 25, "unit": "gallons", "expiry": "2026-03-05", "tags": ["fresh","calcium","cooking"] },
+  { "id": 25, "name": "Cheddar Cheese",        "category": "Dairy",     "type": "Cheese",      "qty": 12, "unit": "blocks",  "expiry": "2026-04-01", "tags": ["fresh","snack","cooking"] },
+  { "id": 26, "name": "Plain Yogurt",          "category": "Dairy",     "type": "Yogurt",      "qty": 18, "unit": "tubs",    "expiry": "2026-03-08", "tags": ["fresh","probiotic","breakfast"] },
+  { "id": 27, "name": "Unsalted Butter",       "category": "Dairy",     "type": "Butter",      "qty": 10, "unit": "lbs",     "expiry": "2026-05-01", "tags": ["baking","cooking","staple"] },
+
+  { "id": 28, "name": "Diced Tomatoes",        "category": "Canned",    "type": "Tomato",      "qty": 55, "unit": "cans",    "expiry": "2027-12-01", "tags": ["canned","sauce","soup","staple"] },
+  { "id": 29, "name": "Chicken Broth",         "category": "Canned",    "type": "Broth",       "qty": 30, "unit": "cartons", "expiry": "2027-06-01", "tags": ["canned","soup","cooking","base"] },
+  { "id": 30, "name": "Corn",                  "category": "Canned",    "type": "Vegetable",   "qty": 48, "unit": "cans",    "expiry": "2027-10-01", "tags": ["canned","vegetable","side"] },
+  { "id": 31, "name": "Green Beans",           "category": "Canned",    "type": "Vegetable",   "qty": 36, "unit": "cans",    "expiry": "2027-08-01", "tags": ["canned","vegetable","side"] },
+  { "id": 32, "name": "Tomato Sauce",          "category": "Canned",    "type": "Sauce",       "qty": 42, "unit": "jars",    "expiry": "2027-09-01", "tags": ["canned","pasta","sauce","staple"] },
+  { "id": 33, "name": "Applesauce",            "category": "Canned",    "type": "Fruit",       "qty": 24, "unit": "jars",    "expiry": "2027-04-01", "tags": ["canned","snack","kids","sweet"] },
+
+  { "id": 34, "name": "Olive Oil",             "category": "Pantry",    "type": "Oil",         "qty": 15, "unit": "bottles", "expiry": "2027-01-01", "tags": ["cooking","healthy","staple"] },
+  { "id": 35, "name": "Kosher Salt",           "category": "Pantry",    "type": "Spice",       "qty": 10, "unit": "boxes",   "expiry": "2030-01-01", "tags": ["staple","seasoning","baking"] },
+  { "id": 36, "name": "Black Pepper",          "category": "Pantry",    "type": "Spice",       "qty": 8,  "unit": "jars",    "expiry": "2028-01-01", "tags": ["staple","seasoning"] },
+  { "id": 37, "name": "Cumin",                 "category": "Pantry",    "type": "Spice",       "qty": 6,  "unit": "jars",    "expiry": "2027-06-01", "tags": ["spice","latin","indian","seasoning"] },
+  { "id": 38, "name": "Chili Powder",          "category": "Pantry",    "type": "Spice",       "qty": 6,  "unit": "jars",    "expiry": "2027-06-01", "tags": ["spice","heat","seasoning"] },
+  { "id": 39, "name": "Soy Sauce",             "category": "Pantry",    "type": "Condiment",   "qty": 12, "unit": "bottles", "expiry": "2027-03-01", "tags": ["umami","asian","condiment"] },
+  { "id": 40, "name": "Apple Cider Vinegar",   "category": "Pantry",    "type": "Condiment",   "qty": 8,  "unit": "bottles", "expiry": "2028-06-01", "tags": ["condiment","baking","dressing"] },
+
+  { "id": 41, "name": "Orange Juice",          "category": "Beverages", "type": "Juice",       "qty": 20, "unit": "cartons", "expiry": "2026-03-07", "tags": ["fresh","vitamin-c","breakfast"] },
+  { "id": 42, "name": "Green Tea Bags",        "category": "Beverages", "type": "Tea",         "qty": 15, "unit": "boxes",   "expiry": "2027-01-01", "tags": ["hot","antioxidant","drink"] },
+  { "id": 43, "name": "Instant Coffee",        "category": "Beverages", "type": "Coffee",      "qty": 10, "unit": "jars",    "expiry": "2027-06-01", "tags": ["hot","caffeine","breakfast"] },
+
+  { "id": 44, "name": "Saltine Crackers",      "category": "Snacks",    "type": "Crackers",    "qty": 30, "unit": "boxes",   "expiry": "2026-09-01", "tags": ["snack","kids","soup"] },
+  { "id": 45, "name": "Granola Bars",          "category": "Snacks",    "type": "Bar",         "qty": 50, "unit": "bars",    "expiry": "2026-08-01", "tags": ["snack","on-the-go","kids"] },
+  { "id": 46, "name": "Mixed Nuts",            "category": "Snacks",    "type": "Nuts",        "qty": 20, "unit": "bags",    "expiry": "2026-12-01", "tags": ["snack","protein","healthy"] },
+  { "id": 47, "name": "Raisins",               "category": "Snacks",    "type": "Dried Fruit", "qty": 15, "unit": "boxes",   "expiry": "2026-11-01", "tags": ["snack","sweet","kids","baking"] },
+
+  { "id": 48, "name": "Frozen Mixed Veg",      "category": "Frozen",    "type": "Vegetables",  "qty": 25, "unit": "bags",    "expiry": "2026-12-01", "tags": ["frozen","quick","healthy"] },
+  { "id": 49, "name": "Frozen Corn",           "category": "Frozen",    "type": "Vegetables",  "qty": 20, "unit": "bags",    "expiry": "2026-10-01", "tags": ["frozen","side","quick"] },
+  { "id": 50, "name": "Frozen Chicken Breast", "category": "Frozen",    "type": "Poultry",     "qty": 30, "unit": "lbs",     "expiry": "2026-08-01", "tags": ["frozen","protein","dinner"] }
+]
